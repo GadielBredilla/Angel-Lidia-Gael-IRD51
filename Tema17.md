@@ -1,4 +1,4 @@
-# Tema 18: Trabajo con Bases de Datos en Proyectos Django
+# Tema 17: Trabajo con Bases de Datos en Proyectos Django
 
 1. **Configuración de Base de Datos en Django:**
    - Configuración para bases de datos SQLite, PostgreSQL, MySQL, etc.
@@ -71,21 +71,21 @@
      # forms.py
      from django import forms
      from .models import Persona
-
+OAOAOA
      class PersonaForm(forms.ModelForm):
          class Meta:
-             model = Persona
-             fields = '__all__'
+OAOAOA             model = Persona
+OAOAOA             fields = '__all__'
      ```
 
-8. **Admin de Django:**
+OAOAOA8. **Admin de Django:**
    - Personalización y uso del panel de administración de Django.
    - Registro de modelos para gestionar datos a través del admin.
      ```python
      # admin.py
      from django.contrib import admin
      from .models import Persona
-
-     admin.site.register(Persona)
+OAOAOA
+OAOAOA     admin.site.register(Persona)
      ```
 
